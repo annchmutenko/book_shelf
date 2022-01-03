@@ -1,0 +1,63 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.header {
+    //height: 200px;
+
+    .utils {
+        .filter {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            .hot-keys {
+                font-weight: 800;
+                font-size: 12pt;
+                span {
+                    margin-right:10px;
+                }
+            }
+            .extended-filter {
+                .title {
+                    font-weight: 600;
+                    font-size: 14pt;
+                }
+                margin-top: 15px;
+            }
+        }
+        .buttons-group {
+            a {
+                border-radius: 5px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.title__index {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.admin-form {
+    input {
+        border-radius: 5px;
+        &[type="radio"] {
+            margin-right:10px;
+        }
+    }
+}
